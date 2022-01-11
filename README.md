@@ -7,7 +7,8 @@ Basic example of embedded integration with Auth0 using the ['auth0-lock'](https:
 To run the application, the first thing you should do is create the environment variables file .env in the root of the project and set the variables according to your auth0 account.
 
 example .env
-```shellREACT_APP_AUTH_0_CLIENT_ID= // Your client id
+```shell
+REACT_APP_AUTH_0_CLIENT_ID= // Your client id
 REACT_APP_AUTH_0_DOMAIN= // Your domain
 REACT_APP_AUTH_0_CONTAINER=auth0-login-container
 ```
